@@ -2,7 +2,7 @@
 
 Current Implementation
 
-You can paste an interview email into the weeb app to classify it, and if the AI nova lite 1.0 model determines its confirmed already, it extracts the company, role, and confirmed interview time if present.
+You can paste an interview email into the web app to classify it, and if the AI nova lite 1.0 model determines its confirmed already, it extracts the company, role, and confirmed interview time if present.
 
 The current demo accepts pasted emails, then Teact sends the text to the API Gateway, which invokes Python Lambda in `us-east-2`. Lambda then calls Amazon Bedrock using Nova-Lite 1.0 to classify the email and return the result to the page.
 
